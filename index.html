@@ -65,7 +65,7 @@
     <div class="container">
       <div class="row row-content">
 
-        <div class="col-xs-12 col-sm-4 recipe-card">
+        <div class="col-xs-12 col-sm-4 recipe-card" onclick="goToLink('link.html')">
           <img src="img/img1.jpg" class="img-responsive img-card" alt="Responsive image">
           <h3 class="recipe-card-title">Avocado cake</h3>
           <p class="recipe-card-intro">
@@ -74,7 +74,7 @@
           <!-- <a class="btn btn-default card-button" href="#" role="button">Link</a> -->
         </div>
 
-        <div class="col-xs-12 col-sm-4 recipe-card">
+        <div class="col-xs-12 col-sm-4 recipe-card" onclick="goToLink('link.html')">
           <img src="img/img5.jpg" class="img-responsive img-card" alt="Responsive image">
           <h3 class="recipe-card-title">Breakfast balance porridge</h3>
           <p class="recipe-card-intro">
@@ -84,7 +84,7 @@
           <!-- <a class="btn btn-default card-button" href="#" role="button">Link</a> -->
         </div>
 
-        <div class="col-xs-12 col-sm-4 recipe-card">
+        <div class="col-xs-12 col-sm-4 recipe-card" onclick="goToLink('link.html')">
           <img src="img/img4.jpg" class="img-responsive img-card" alt="Responsive image">
           <h3 class="recipe-card-title">Orange truffes</h3>
           <p class="recipe-card-intro">
@@ -127,5 +127,13 @@
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+    <script>
+    function goToLink(link) {
+      window.location.href=link;
+    };
+
+     </script>
   </body>
 </html>

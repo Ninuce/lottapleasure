@@ -53,6 +53,12 @@ li a {
   flex-direction: column;
   align-items: center;
   padding: 4rem;
+  border-radius: 10px;
+}
+
+.recipe-card:hover {
+background: rgba(231, 232, 229, 0.7);
+cursor: pointer;
 }
 
 .recipe-card-intro {
