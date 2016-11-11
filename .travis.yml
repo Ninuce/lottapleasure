@@ -3,9 +3,7 @@ language: generic
 deploy:
   provider: s3
   access_key_id: AKIAIFQ6DJAUYXMZ7RSA
-  secret_access_key:
-    secure: R0daSFSPMKIbUle2H5v2JCWlblxxXaYn814VVcVSsfmMXLeuP7YGtEqrahVWKgLjigw2uk/L7WWT1inidxv7H0q1prG2/7DrKYdUWMceCbyamis8fpGEKrLGIegL26IE/eL7SrWbPyy+hZdT6io4tOkw2W3Dy6y2DwZ+1ww6qPWkIkmw5k2G77CbGsaYWrkc5s2Ll15LLbmRvMKBxI0Ta9C2EHqISWn7cLV3ViJCQKlDGOZczCw6veT0UPH1UkvhSt0WaEzw7vjSl8KTMEQ+X6lxgfDQyJEesb6uwwhwmPgu0z8UOHrPbF1penCRV5ONBCdX+alYorVxQ7xbh3htJgEZhO9fvULCkCcL1YK1hXUTmnh09Yj4Xi2oeVU7qBvCv1mrSVU4+tYGuwgPlJpeH0zn4SPk1lXqBc609Wx3KjwR//N8bxAHQtQeu58jL85zWs+yW+Q6f57OXYrOyWkRXBPaFVIt5xi+GtIaZgiOcN6UvztMPeNQvCWKyxNfA7q3+0ZAFjs+D+anBsxjTtqaLrGpID9ULwNmoSFZ6+UJZv3MlDYea42NsSieaWvnFoPcjZ7+bJv+nsmZ4TYW1PbmqcMQBHXnFrRaxpz33YofZZELGbb7XZW5CveZIMYQnDy53xrolgLKVnIa2YxQ+qczt7I9fXUZIzCye4WEIy+RNNQ=
-  #bucket: TP6+9gYOWmSlRglFYjOzd584fCeTWtxbf0D8q6bclottapleasure.com
+  secret_access_key: $AWS_SECRET_KEY
   bucket: lottapleasure.com
   acl: public_read
   on:
