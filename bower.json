@@ -1,0 +1,26 @@
+{
+  "name": "lottapleasure",
+  "authors": [
+    "Lota Plezere <lota.plezere@gmail.com>"
+  ],
+  "description": "1.0",
+  "main": "index.html",
+  "keywords": [
+    "lottapleasure",
+    "food",
+    "blog"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0"
+  }
+}

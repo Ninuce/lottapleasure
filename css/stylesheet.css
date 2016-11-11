@@ -1,0 +1,172 @@
+@font-face {
+  font-family: "font1";
+  src: url("../fonts/Stalemate-Regular.ttf");
+}
+@font-face {
+  font-family: "font2";
+  src: url("../fonts/Raleway-Thin.ttf");
+}
+
+
+nav {
+  padding: 5px 0 10px 0;
+}
+
+li a {
+  color: #959593;
+}
+
+.nav-container {
+  border-bottom: grey dotted 1px;
+}
+
+.navbar-default {
+  background-color: white;
+  border: none;
+}
+
+.navbar-default .navbar-nav .active a {
+  font-weight: bold;
+  background-color: inherit;
+}
+
+.jumbotron {
+  background-color: white;
+  margin-top: 50px;
+}
+
+.jumbotron h1 {
+  /*text-align: center;*/
+  padding: 1rem 0.5rem 1rem 2rem;
+}
+
+.jumbotron h3 {
+    padding: 0 0 0 2rem;
+}
+
+.img-card {
+  border-radius: 5px;
+}
+
+.recipe-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem;
+}
+
+.recipe-card-intro {
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+.recipe-card-title {
+  font-weight: normal;
+}
+
+#togglebutton {
+  border: none;
+}
+
+
+.cont-break {
+  border-top: dotted grey 1px;
+  border-bottom: dotted grey 1px;
+  padding: 2rem 0.5rem;
+}
+
+.cont-break p {
+  width: 80%;
+  margin: auto;
+  padding-top: 2rem;
+  padding-bottom: 2.5rem;
+  text-align: justify;
+}
+
+.cont-break h3 {
+  font-size: 7rem;
+  text-align: center;
+  font-family: font1;
+}
+
+.row-footer {
+margin-top: 2rem;
+padding: 4rem 0;
+/*border-top: lightgrey solid 1px;*/
+text-align: center;
+font-size: 1.2rem;
+font-weight: bolder;
+}
+
+
+@media (min-width: 768px) {
+  .row-content {
+    display: flex;
+    /*justify-content: space-between;*/
+  }
+
+  .jumbotron h1 {
+    /*text-align: center;*/
+    padding: 1rem 0.5rem 1rem 0;
+  }
+
+  .jumbotron h3 {
+      padding: 0;
+  }
+
+  .recipe-card {
+      padding: 2rem;
+  }
+
+  .recipe-card-intro {
+    padding: 0;
+  }
+
+  .cont-break p {
+    width: 60%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.break-img {
+
+  min-height: 450px;
+  object-fit: cover;
+  background-image: url("../img/smoothie.jpg");
+
+}*/
+/*.break-img {
+
+  background: url("../img/salaati.jpg") no-repeat center center fixed;
+  min-height: 300px;
+  background-size: cover;
+}*/
+
+  /*background-image: url("../img/salaati.jpg");
+  min-height: 70vh;
+  min-width: 100%;
+
+  background-size: 100%;
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:fixed;*/
+
+
+/*.intro-img {
+object-fit: cover; }*/
+/*.break-img {
+    background: url("../img/salaati.jpg") no-repeat center center fixed;
+    max-height: 100vh;
+    /*object-fit: cover;*/
+/*}*/
