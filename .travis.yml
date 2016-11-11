@@ -6,6 +6,7 @@ deploy:
   secret_access_key: $AWS_SECRET_KEY
   bucket: lottapleasure.com
   acl: public_read
+  endpoint: lottapleasure.com.s3-website-eu-west-1.amazonaws.com
   on:
     repo: Ninuce/lottapleasure
     branch: master
