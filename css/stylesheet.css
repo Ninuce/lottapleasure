@@ -68,6 +68,7 @@ cursor: pointer;
 
 .recipe-card-title {
   font-weight: normal;
+  text-align: center;
 }
 
 #togglebutton {
